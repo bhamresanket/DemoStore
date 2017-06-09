@@ -199,6 +199,7 @@ class LoginController: BaseController, UITextFieldDelegate, UIGestureRecognizerD
         return label
     }()
     
+    // https://stackoverflow.com/questions/32537867/swift-uitextfield-icon-position-set
     private let textEmail: TextField = {
         let textField = TextField()
         textField.placeholder = "Username"
