@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434C16831EE923FB007B5667 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C16821EE923FB007B5667 /* Constants.swift */; };
+		434C16861EE92A11007B5667 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C16851EE92A11007B5667 /* Extensions.swift */; };
+		434C168B1EE92A2B007B5667 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C16871EE92A2B007B5667 /* Button.swift */; };
+		434C168C1EE92A2B007B5667 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C16881EE92A2B007B5667 /* Label.swift */; };
+		434C168D1EE92A2B007B5667 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C16891EE92A2B007B5667 /* TextField.swift */; };
+		434C168E1EE92A2B007B5667 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C168A1EE92A2B007B5667 /* TextView.swift */; };
+		F68B92DF1EE9CF8900D27516 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B92DE1EE9CF8900D27516 /* RegisterController.swift */; };
 		F6DA3E191EE86E3F00DA2878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA3E181EE86E3F00DA2878 /* AppDelegate.swift */; };
-		F6DA3E1B1EE86E3F00DA2878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA3E1A1EE86E3F00DA2878 /* ViewController.swift */; };
 		F6DA3E1E1EE86E3F00DA2878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DA3E1C1EE86E3F00DA2878 /* Main.storyboard */; };
 		F6DA3E201EE86E3F00DA2878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DA3E1F1EE86E3F00DA2878 /* Assets.xcassets */; };
 		F6DA3E231EE86E3F00DA2878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DA3E211EE86E3F00DA2878 /* LaunchScreen.storyboard */; };
 		F6DA3E2E1EE86E3F00DA2878 /* NeoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA3E2D1EE86E3F00DA2878 /* NeoSwiftTests.swift */; };
 		F6DA3E391EE86E3F00DA2878 /* NeoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA3E381EE86E3F00DA2878 /* NeoSwiftUITests.swift */; };
+		F6DA3E4A1EE86FAC00DA2878 /* GBOLD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6DA3E471EE86F3700DA2878 /* GBOLD.ttf */; };
+		F6DA3E4B1EE86FAC00DA2878 /* GBOOK.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6DA3E481EE86F3700DA2878 /* GBOOK.ttf */; };
+		F6DA3E4C1EE86FAC00DA2878 /* GMEDIUM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6DA3E491EE86F3700DA2878 /* GMEDIUM.ttf */; };
+		F6DA3E9F1EE8747F00DA2878 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA3E9E1EE8747F00DA2878 /* BaseController.swift */; };
+		F6DA3EA21EE8752D00DA2878 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA3EA11EE8752D00DA2878 /* LoginController.swift */; };
+		F6DA3EA91EE87A5C00DA2878 /* Screen Shot 2017-06-07 at 11.44.11 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = F6DA3EA81EE87A5C00DA2878 /* Screen Shot 2017-06-07 at 11.44.11 PM.png */; };
+		F6DA3EAB1EE882EC00DA2878 /* Screen Shot 2017-06-08 at 12.21.47 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = F6DA3EAA1EE882EC00DA2878 /* Screen Shot 2017-06-08 at 12.21.47 AM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		434C16821EE923FB007B5667 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		434C16851EE92A11007B5667 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		434C16871EE92A2B007B5667 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		434C16881EE92A2B007B5667 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		434C16891EE92A2B007B5667 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		434C168A1EE92A2B007B5667 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		F68B92DE1EE9CF8900D27516 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		F6DA3E151EE86E3F00DA2878 /* NeoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DA3E181EE86E3F00DA2878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6DA3E1A1EE86E3F00DA2878 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6DA3E1D1EE86E3F00DA2878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6DA3E1F1EE86E3F00DA2878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6DA3E221EE86E3F00DA2878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +66,13 @@
 		F6DA3E341EE86E3F00DA2878 /* NeoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DA3E381EE86E3F00DA2878 /* NeoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSwiftUITests.swift; sourceTree = "<group>"; };
 		F6DA3E3A1EE86E3F00DA2878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DA3E471EE86F3700DA2878 /* GBOLD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GBOLD.ttf; sourceTree = "<group>"; };
+		F6DA3E481EE86F3700DA2878 /* GBOOK.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GBOOK.ttf; sourceTree = "<group>"; };
+		F6DA3E491EE86F3700DA2878 /* GMEDIUM.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GMEDIUM.ttf; sourceTree = "<group>"; };
+		F6DA3E9E1EE8747F00DA2878 /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		F6DA3EA11EE8752D00DA2878 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F6DA3EA81EE87A5C00DA2878 /* Screen Shot 2017-06-07 at 11.44.11 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-07 at 11.44.11 PM.png"; sourceTree = "<group>"; };
+		F6DA3EAA1EE882EC00DA2878 /* Screen Shot 2017-06-08 at 12.21.47 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-08 at 12.21.47 AM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +100,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		434C16841EE9291E007B5667 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				434C16871EE92A2B007B5667 /* Button.swift */,
+				434C16881EE92A2B007B5667 /* Label.swift */,
+				434C16891EE92A2B007B5667 /* TextField.swift */,
+				434C168A1EE92A2B007B5667 /* TextView.swift */,
+				434C16821EE923FB007B5667 /* Constants.swift */,
+				434C16851EE92A11007B5667 /* Extensions.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		F68B92DD1EE9C8D900D27516 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F68B92DE1EE9CF8900D27516 /* RegisterController.swift */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
 		F6DA3E0C1EE86E3F00DA2878 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +144,11 @@
 		F6DA3E171EE86E3F00DA2878 /* NeoSwift */ = {
 			isa = PBXGroup;
 			children = (
-				F6DA3E181EE86E3F00DA2878 /* AppDelegate.swift */,
-				F6DA3E1A1EE86E3F00DA2878 /* ViewController.swift */,
-				F6DA3E1C1EE86E3F00DA2878 /* Main.storyboard */,
-				F6DA3E1F1EE86E3F00DA2878 /* Assets.xcassets */,
-				F6DA3E211EE86E3F00DA2878 /* LaunchScreen.storyboard */,
-				F6DA3E241EE86E3F00DA2878 /* Info.plist */,
+				434C16841EE9291E007B5667 /* Others */,
+				F6DA3E951EE872C600DA2878 /* Controllers */,
+				F6DA3E941EE8727700DA2878 /* Application Delegate */,
+				F6DA3E931EE8726900DA2878 /* Storyboards */,
+				F6DA3E461EE86F2000DA2878 /* Resources */,
 			);
 			path = NeoSwift;
 			sourceTree = "<group>";
@@ -123,6 +169,71 @@
 				F6DA3E3A1EE86E3F00DA2878 /* Info.plist */,
 			);
 			path = NeoSwiftUITests;
+			sourceTree = "<group>";
+		};
+		F6DA3E461EE86F2000DA2878 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6DA3EA71EE87A4400DA2878 /* Screens */,
+				F6DA3E241EE86E3F00DA2878 /* Info.plist */,
+				F6DA3E471EE86F3700DA2878 /* GBOLD.ttf */,
+				F6DA3E481EE86F3700DA2878 /* GBOOK.ttf */,
+				F6DA3E491EE86F3700DA2878 /* GMEDIUM.ttf */,
+				F6DA3E1F1EE86E3F00DA2878 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F6DA3E931EE8726900DA2878 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F6DA3E1C1EE86E3F00DA2878 /* Main.storyboard */,
+				F6DA3E211EE86E3F00DA2878 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F6DA3E941EE8727700DA2878 /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F6DA3E181EE86E3F00DA2878 /* AppDelegate.swift */,
+			);
+			name = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		F6DA3E951EE872C600DA2878 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F6DA3E9A1EE873B900DA2878 /* Base */,
+				F6DA3EA01EE8751100DA2878 /* Login */,
+				F68B92DD1EE9C8D900D27516 /* Register */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F6DA3E9A1EE873B900DA2878 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F6DA3E9E1EE8747F00DA2878 /* BaseController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		F6DA3EA01EE8751100DA2878 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F6DA3EA11EE8752D00DA2878 /* LoginController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		F6DA3EA71EE87A4400DA2878 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F6DA3EA81EE87A5C00DA2878 /* Screen Shot 2017-06-07 at 11.44.11 PM.png */,
+				F6DA3EAA1EE882EC00DA2878 /* Screen Shot 2017-06-08 at 12.21.47 AM.png */,
+			);
+			name = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +346,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DA3E4A1EE86FAC00DA2878 /* GBOLD.ttf in Resources */,
+				F6DA3EA91EE87A5C00DA2878 /* Screen Shot 2017-06-07 at 11.44.11 PM.png in Resources */,
+				F6DA3E4B1EE86FAC00DA2878 /* GBOOK.ttf in Resources */,
+				F6DA3E4C1EE86FAC00DA2878 /* GMEDIUM.ttf in Resources */,
+				F6DA3EAB1EE882EC00DA2878 /* Screen Shot 2017-06-08 at 12.21.47 AM.png in Resources */,
 				F6DA3E231EE86E3F00DA2878 /* LaunchScreen.storyboard in Resources */,
 				F6DA3E201EE86E3F00DA2878 /* Assets.xcassets in Resources */,
 				F6DA3E1E1EE86E3F00DA2878 /* Main.storyboard in Resources */,
@@ -262,8 +378,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6DA3E1B1EE86E3F00DA2878 /* ViewController.swift in Sources */,
+				F68B92DF1EE9CF8900D27516 /* RegisterController.swift in Sources */,
+				434C16861EE92A11007B5667 /* Extensions.swift in Sources */,
+				434C168B1EE92A2B007B5667 /* Button.swift in Sources */,
+				F6DA3E9F1EE8747F00DA2878 /* BaseController.swift in Sources */,
+				434C168D1EE92A2B007B5667 /* TextField.swift in Sources */,
+				F6DA3EA21EE8752D00DA2878 /* LoginController.swift in Sources */,
 				F6DA3E191EE86E3F00DA2878 /* AppDelegate.swift in Sources */,
+				434C168E1EE92A2B007B5667 /* TextView.swift in Sources */,
+				434C168C1EE92A2B007B5667 /* Label.swift in Sources */,
+				434C16831EE923FB007B5667 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +541,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4HMYH97V4V;
 				INFOPLIST_FILE = NeoSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sgk-Technologies.NeoSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +555,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4HMYH97V4V;
 				INFOPLIST_FILE = NeoSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sgk-Technologies.NeoSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +640,7 @@
 				F6DA3E3F1EE86E3F00DA2878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6DA3E401EE86E3F00DA2878 /* Build configuration list for PBXNativeTarget "NeoSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +649,7 @@
 				F6DA3E421EE86E3F00DA2878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6DA3E431EE86E3F00DA2878 /* Build configuration list for PBXNativeTarget "NeoSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +658,7 @@
 				F6DA3E451EE86E3F00DA2878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
